@@ -3,8 +3,9 @@
     padding: 0;
 }
 body{
-    background-color: cyan;
-    height: 100vh;
+    background-color: white;
+    height: 100%;
+    width: 100%;
 }
 header{
     height: 60px;
@@ -25,7 +26,7 @@ header ul{
     display: flex;
     text-align: center;
     width: 85%;
-    height: 100%;  
+    height: 100%;
 }
 
 header ul li a{
@@ -39,7 +40,6 @@ section
     border: 1px solid black;
     margin: 10px 0;
     width: 100%;
-    
 }
 section h3,h2,p{
     margin: 10px;
@@ -49,7 +49,7 @@ section h2{
 }
 section h3
 {
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 15px;
     width: 20%;
 }
@@ -75,8 +75,57 @@ footer
 {
     color: darkgray;
     background-color: lightgray;
-    position: absolute;
+    position: relative;
     top:100%;
     width: 100%;
     text-align: center;
+}
+section ul a{
+    background-color: darkblue;
+    border-radius: 5px;
+    color: white;
+}
+section ul a:hover{
+    background-color: rgb(206, 134, 0);
+}
+.pra p{
+    color: rgb(254, 254, 254);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #0c1ee7;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 22px;
+    border-radius: 30px;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #0c1ee7;
+    cursor: pointer;
+}
+.card{
+    height: 365px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 0;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(206, 134, 0);
 }
