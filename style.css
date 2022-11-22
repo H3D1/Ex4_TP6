@@ -146,3 +146,10 @@ section ul a:hover{
     margin: 25px 0px;
     color: rgb(206, 134, 0);
 }
+.box img{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    position: absolute;
+    left: 37%;
+}
